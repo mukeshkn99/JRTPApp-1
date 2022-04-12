@@ -13,7 +13,7 @@ public static String encode(String txt) {
 
 public static String decode(String encodetxt) {
       //bux fixed id=120
-       String name="mukesh"
+       String name="mukesh";
 	Decoder decoder=Base64.getDecoder();
 	byte[] decode=decoder.decode(encodetxt);
 	return new String(decode);
